@@ -15,7 +15,7 @@ use ash::extensions::{
     self,
     ext::{DebugReport, DebugUtils},
 };
-use ash::version::{Device, EntryCustom, Instance};
+use ash::version::{DeviceV1_1, EntryV1_1, InstanceV1_1};
 use ash::vk;
 #[cfg(not(feature = "use-rtld-next"))]
 use ash::{Entry, LoadingError};
